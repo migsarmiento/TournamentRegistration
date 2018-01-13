@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import UpcomingCompetitions from "./upcoming-competitions";
+import ActiveFencers from "./active-fencers";
 
 export default class Home extends Component {
+
+
+
+    onClickLogin() {
+        this.setState({
+            showActiveFencers: false,
+        });
+    }
+
     render() {
         return (
             <div className='menu'>
@@ -15,6 +25,7 @@ export default class Home extends Component {
                 <button className="_button-7" type="button">LOGIN</button>
 
                 <UpcomingCompetitions />
+                <ActiveFencers />
             </div>
         )
     }
