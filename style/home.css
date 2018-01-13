@@ -1,0 +1,35 @@
+body{background-color:rgb(255, 255, 255);font:400 12px/1.38 Roboto;color:rgb(255, 255, 255);}
+
+button{display:block;position:relative;float:left;width:8.2352941176%;height:84px;letter-spacing:1px;color:rgb(255, 255, 255);}
+
+.text{position:relative;float:left;z-index:7;width:56.9999999999%;min-height:24px;margin:11px 0 0 2.40148%;font-weight:300;color:rgb(255, 255, 255);}
+
+.wrapper{position:relative;float:left;clear:both;z-index:8;width:95.1970443349%;height:168px;margin:-3px 0 0 2.40148%;border-radius:4px;overflow:hidden;}
+
+._container{float:left;clear:both;width:79.6078431372%;height:220px;margin:32px 0 0 10.1976099999%;background-color:rgba(168, 168, 168, 0.75);}
+
+._element{position:absolute;left:0;right:0;width:100%;margin:0 auto;background-color:rgba(27, 46, 174, 0.8);}
+
+._element:active{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;background-color:rgba(139, 163, 236, 0.64);}
+
+.container-1{top:0;height:84px;}
+
+.container-3{bottom:0;z-index:10;height:55px;}
+
+._button-1{z-index:6;margin-left:10.1976099999%;text-align:center;}
+
+._button-1:hover{background-color:rgba(0, 0, 0, 0);}
+
+._button-2{z-index:5;margin-left:1.9546568627%;text-align:center;}
+
+._button-3{z-index:4;margin-left:1.95619%;text-align:center;}
+
+._button-4{z-index:3;margin-left:1.95619%;text-align:center;}
+
+._button-5{z-index:2;margin-left:1.95619%;text-align:left;}
+
+._button-6{z-index:1;margin-left:1.99755%;text-align:center;}
+
+._button-7{z-index:11;margin-left:12.21201%;text-align:center;}
+
+.text a,.text em,.text span{border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-color:transparent;border-style:none;border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0;background-color:transparent;font-family:inherit;font-style:inherit;font-size:inherit;font-weight:inherit;text-transform:inherit;text-decoration:inherit;letter-spacing:inherit;word-spacing:inherit;color:inherit;opacity:1;word-break:normal;word-wrap:normal;white-space:normal;}
