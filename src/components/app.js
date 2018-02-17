@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import Home from './home';
-import '../styles/fonts.css';
-import '../styles/standardize.css';
-import '../styles/home-logged-in.css';
-import '../styles/home-logged-in-grid.css';
+import Header from "./header";
+import MenuBar from "./menu-bar";
+import Footer from "./footer";
+import FencersList from "./fencers-list";
+
 
 export default class App extends Component {
     render() {
         return (
-            <Home />
+            <div>
+                <Header />
+                <MenuBar />
+
+                <Footer/>
+            </div>
         );
     }
 }
