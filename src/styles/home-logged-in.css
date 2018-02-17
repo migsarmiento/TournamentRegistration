@@ -1,0 +1,1778 @@
+body {
+    min-width: none;
+    min-height: nonepx;
+    background-color: rgb(255, 255, 255);
+    font: 300 1em/1.38 Roboto;
+    color: rgb(0, 0, 0);
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+.container .image {
+    clear: both;
+    width: 94px;
+    margin: -17px 0 0 108.08081%;
+}
+
+.image {
+    display: block;
+    float: left;
+    height: auto;
+    overflow: hidden;
+}
+
+.text {
+    float: left;
+}
+
+.wrapper {
+    position: relative;
+    float: left;
+    width: 92.6229508196%;
+    max-width: 225px;
+    height: 120px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+
+._button {
+    display: block;
+    float: left;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+._container {
+    padding: 5px;
+}
+
+._element {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: none;
+    min-height: nonepx;
+    margin: 0 auto;
+    background-color: rgb(0, 78, 139);
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+._element:active,
+.container-1:active {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: rgba(139, 163, 236, 0.64);
+}
+
+.container ._button {
+    clear: both;
+    width: 29.4949494949%;
+    height: 22px;
+    margin: -22px 0 0 71.51515%;
+    border-radius: 2px;
+    background-color: rgba(222, 222, 222, 0.21);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.container-1 {
+    position: absolute;
+    top: 65px;
+    right: 10.078125%;
+    z-index: 24;
+    width: 39.453125%;
+    height: 35px;
+    min-height: 35px;
+    background-color: rgba(255, 34, 12, 0.6);
+}
+
+.container-2 {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 10;
+    width: 19.21875%;
+    min-width: none;
+    height: 241px;
+    min-height: nonepx;
+    margin: 25px 0 0 10.07813%;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgba(189, 189, 189, 0.2);
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+.container-3 {
+    position: relative;
+    float: left;
+    z-index: 18;
+    width: 19.21875%;
+    height: 241px;
+    margin: 25px 0 0 0.99976%;
+    background-color: rgba(189, 189, 189, 0.2);
+}
+
+.container-4 {
+    position: relative;
+    float: left;
+    z-index: 30;
+    width: 19.21875%;
+    height: 241px;
+    margin: 25px 0 0 0.97168%;
+    background-color: rgba(189, 189, 189, 0.2);
+}
+
+.container-5 {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 42;
+    width: 19.21875%;
+    height: 361px;
+    margin: 39px 0 0 10.09888%;
+    background-color: rgba(189, 189, 189, 0.2);
+}
+
+.container-6 {
+    position: relative;
+    float: left;
+    z-index: 57;
+    width: 19.21875%;
+    height: 361px;
+    margin: 39px 0 0 0.98877%;
+    background-color: rgba(189, 189, 189, 0.2);
+}
+
+.container-7 {
+    position: relative;
+    float: left;
+    z-index: 69;
+    width: 19.21875%;
+    height: 361px;
+    margin: 39px 0 0 0.97046%;
+    background-color: rgba(189, 189, 189, 0.2);
+}
+
+.container-8 {
+    bottom: 0;
+    z-index: 11;
+    height: 55px;
+}
+
+.container-9 {
+    top: 0;
+    z-index: 0;
+    height: 65px;
+}
+
+.image-1 {
+    position: relative;
+    z-index: 44;
+    width: 25px;
+    margin: 20px 0 0 13.67188%;
+}
+
+.image-2 {
+    position: relative;
+    z-index: 45;
+    width: 25px;
+    margin: 20px 0 0 14.60938%;
+}
+
+.image-4 {
+    position: relative;
+    clear: both;
+    z-index: 20;
+    width: 203px;
+    margin: -222px 0 0 72.34375%;
+    opacity: 0.6;
+}
+
+.image-5 {
+    position: relative;
+    clear: both;
+    z-index: 71;
+    width: 203px;
+    margin: -282px 0 0 72.34375%;
+    opacity: 0.6;
+}
+
+.text-1 {
+    width: 48.7128712871%;
+    min-height: 20px;
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.text-11 {
+    position: relative;
+    clear: both;
+    z-index: 27;
+    width: 40.9836065573%;
+    min-height: 60px;
+    margin: -60px 0 0 52.85823%;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(248, 170, 0);
+}
+
+.text-12,
+.text-4,
+.text-8 {
+    width: 92.6229508196%;
+    max-width: 225px;
+    min-height: 30px;
+    margin: 7px 0 0 3.67124%;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+}
+
+.text-10,
+.text-13,
+.text-14,
+.text-5,
+.text-6,
+.text-9 {
+    clear: both;
+    width: 92.6229508196%;
+    min-height: 25px;
+    margin-left: 3.67124%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-15 {
+    width: 19.21875%;
+    min-height: 32px;
+    margin: 61px 0 0 10.09888%;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-indent: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.text-16 {
+    position: relative;
+    clear: both;
+    z-index: 33;
+    width: 40.9836065573%;
+    min-height: 60px;
+    margin: -60px 0 0 52.85355%;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(248, 170, 0);
+}
+
+.text-18 {
+    position: relative;
+    clear: both;
+    z-index: 38;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-19 {
+    position: relative;
+    z-index: 34;
+    width: 75.2032520325%;
+    min-height: 25px;
+    margin-left: 10.22908%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-2 {
+    clear: both;
+    width: 19.21875%;
+    min-height: 32px;
+    margin: 73px 0 0 10.07813%;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-indent: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.text-20 {
+    position: relative;
+    clear: both;
+    z-index: 39;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.70101%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-21 {
+    position: relative;
+    z-index: 35;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.16287%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-22 {
+    position: relative;
+    clear: both;
+    z-index: 40;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-23 {
+    position: relative;
+    z-index: 36;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.22908%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-24 {
+    position: relative;
+    clear: both;
+    z-index: 41;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-25 {
+    position: relative;
+    z-index: 37;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.22246%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-26 {
+    position: relative;
+    clear: both;
+    z-index: 48;
+    width: 40.9836065573%;
+    min-height: 60px;
+    margin: -60px 0 0 52.85355%;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(248, 170, 0);
+}
+
+.text-28 {
+    position: relative;
+    clear: both;
+    z-index: 53;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-29 {
+    position: relative;
+    z-index: 49;
+    width: 75.2032520325%;
+    min-height: 25px;
+    margin-left: 10.22908%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-3 {
+    position: relative;
+    clear: both;
+    z-index: 7;
+    width: 40.9836065573%;
+    min-height: 60px;
+    margin: -60px 0 0 52.85823%;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(248, 170, 0);
+}
+
+.text-30 {
+    position: relative;
+    clear: both;
+    z-index: 54;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.70101%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-31 {
+    position: relative;
+    z-index: 50;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.16287%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-32 {
+    position: relative;
+    clear: both;
+    z-index: 55;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-33 {
+    position: relative;
+    z-index: 51;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.22908%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-34 {
+    position: relative;
+    clear: both;
+    z-index: 56;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-35 {
+    position: relative;
+    z-index: 52;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.22246%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-36 {
+    position: relative;
+    clear: both;
+    z-index: 60;
+    width: 40.9836065573%;
+    min-height: 60px;
+    margin: -60px 0 0 52.85355%;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(248, 170, 0);
+}
+
+.text-17,
+.text-27,
+.text-37 {
+    width: 92.6229508196%;
+    max-width: 225px;
+    min-height: 30px;
+    margin: 7px 0 0 3.64142%;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+}
+
+.text-38 {
+    position: relative;
+    clear: both;
+    z-index: 65;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-39 {
+    position: relative;
+    z-index: 61;
+    width: 75.2032520325%;
+    min-height: 25px;
+    margin-left: 10.22908%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-40 {
+    position: relative;
+    clear: both;
+    z-index: 66;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.70101%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-41 {
+    position: relative;
+    z-index: 62;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.16287%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-42 {
+    position: relative;
+    clear: both;
+    z-index: 67;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-43 {
+    position: relative;
+    z-index: 63;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.22908%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-44 {
+    position: relative;
+    clear: both;
+    z-index: 68;
+    width: 7.2033898305%;
+    min-height: 25px;
+    margin-left: 3.64142%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-45 {
+    position: relative;
+    z-index: 64;
+    width: 75%;
+    min-height: 25px;
+    margin-left: 10.22246%;
+    font-size: 1em;
+    text-indent: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.text-7 {
+    position: relative;
+    clear: both;
+    z-index: 15;
+    width: 40.9836065573%;
+    min-height: 60px;
+    margin: -60px 0 0 52.85823%;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(248, 170, 0);
+}
+
+.wrapper-1 {
+    z-index: 5;
+    margin-left: 3.67124%;
+}
+
+.wrapper-2 {
+    z-index: 13;
+    margin-left: 3.67124%;
+}
+
+.wrapper-3 {
+    z-index: 25;
+    margin-left: 3.67124%;
+}
+
+.wrapper-4 {
+    z-index: 31;
+    margin-left: 3.64142%;
+}
+
+.wrapper-5 {
+    z-index: 46;
+    margin-left: 3.64142%;
+}
+
+.wrapper-6 {
+    z-index: 58;
+    margin-left: 3.64142%;
+}
+
+._button-1 {
+    position: relative;
+    z-index: 4;
+    width: 9.0625%;
+    min-width: none;
+    height: 65px;
+    min-height: nonepx;
+    margin-left: 14.6875%;
+    background-color: rgba(0, 0, 0, 0);
+    font-style: normal;
+    font-size: 0.938em;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+._button-2 {
+    position: relative;
+    z-index: 3;
+    width: 9.140625%;
+    min-width: none;
+    height: 65px;
+    min-height: nonepx;
+    margin-left: 1.01563%;
+    background-color: rgba(0, 0, 0, 0);
+    font-style: normal;
+    font-size: 0.938em;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+._button-3 {
+    position: relative;
+    z-index: 2;
+    width: 9.140625%;
+    min-width: none;
+    height: 65px;
+    min-height: nonepx;
+    margin-left: 0.9375%;
+    background-color: rgba(0, 0, 0, 0);
+    font-style: normal;
+    font-size: 0.938em;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+._button-4 {
+    position: relative;
+    z-index: 1;
+    width: 9.0625%;
+    min-width: none;
+    height: 65px;
+    min-height: nonepx;
+    margin-left: 1.01563%;
+    background-color: rgba(0, 0, 0, 0);
+    font-style: normal;
+    font-size: 0.938em;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+._button-6 {
+    position: relative;
+    z-index: 19;
+    width: 19.2%;
+    height: 233px;
+    min-height: 240px;
+    margin: 25px 0 0 0.98877%;
+    background-color: rgba(248, 170, 0, 0.75);
+}
+
+._button-7 {
+    position: relative;
+    z-index: 70;
+    width: 19.21875%;
+    height: 361px;
+    min-height: 240px;
+    margin: 39px 0 0 0.98877%;
+    background-color: rgba(248, 170, 0, 0.75);
+}
+
+._button-6:hover,
+._button-7:hover {
+    background-color: rgba(248, 170, 0, 0.45);
+}
+
+@media (max-width: 1020px) {
+    .container .image {
+        height: auto;
+        margin-top: -1055px;
+        margin-left: 108.38145%;
+    }
+
+    .container .wrapper {
+        position: relative;
+        width: 92.8168787244%;
+    }
+
+    .image {
+        height: auto;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    ._element {
+        left: 0;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container ._button {
+        width: 19.1911764705%;
+        margin-top: 4px;
+        margin-left: 31.30002%;
+    }
+
+    .container .text-1 {
+        margin-top: 1017px;
+        margin-left: 10.09357%;
+    }
+
+    .container .text-11 {
+        position: relative;
+        z-index: 27;
+        width: 43.8395876952%;
+        margin-left: 52.86147%;
+    }
+
+    .container .text-12,
+    .container .text-4,
+    .container .text-8 {
+        width: 43.9442744403%;
+        margin-left: 3.68245%;
+    }
+
+    .container .text-13,
+    .container .text-9 {
+        width: 92.8168787244%;
+        margin-top: 33px;
+        margin-left: 3.67448%;
+    }
+
+    .container .text-10,
+    .container .text-14 {
+        width: 92.8168787244%;
+        margin-left: 3.67448%;
+    }
+
+    .container .text-16 {
+        position: relative;
+        z-index: 33;
+        width: 43.8395876952%;
+        margin-left: 52.8557%;
+    }
+
+    .container .text-17 {
+        position: relative;
+        z-index: 32;
+        width: 43.9442744403%;
+        margin-left: 3.67882%;
+    }
+
+    .container .text-18 {
+        position: relative;
+        z-index: 38;
+        width: 92.8168787244%;
+        margin-top: -18px;
+        margin-left: 189.61028%;
+    }
+
+    .container .text-19 {
+        position: relative;
+        clear: both;
+        z-index: 34;
+        width: 92.8168787244%;
+        margin-top: 32px;
+        margin-left: 3.67042%;
+    }
+
+    .container .text-20 {
+        position: relative;
+        z-index: 39;
+        width: 92.8168787244%;
+        margin-top: -39px;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-21 {
+        position: relative;
+        z-index: 35;
+        width: 92.8168787244%;
+        margin-top: -128px;
+        margin-left: 3.67042%;
+    }
+
+    .container .text-22 {
+        position: relative;
+        clear: none;
+        z-index: 40;
+        width: 92.8168787244%;
+        margin-top: -14px;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-23 {
+        position: relative;
+        clear: both;
+        z-index: 36;
+        width: 92.8168787244%;
+        margin-top: -270px;
+        margin-left: 26.73442%;
+    }
+
+    .container .text-24 {
+        position: relative;
+        clear: none;
+        z-index: 41;
+        width: 92.8168787244%;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-25 {
+        position: relative;
+        clear: both;
+        z-index: 37;
+        width: 92.8168787244%;
+        margin-top: -270px;
+        margin-left: 26.73442%;
+    }
+
+    .container .text-26 {
+        position: relative;
+        z-index: 48;
+        width: 43.8395876952%;
+        margin-left: 52.8557%;
+    }
+
+    .container .text-27 {
+        position: relative;
+        z-index: 47;
+        width: 43.9442744403%;
+        margin-left: 3.67882%;
+    }
+
+    .container .text-28 {
+        position: relative;
+        z-index: 53;
+        width: 92.8168787244%;
+        margin-top: -18px;
+        margin-left: 189.61028%;
+    }
+
+    .container .text-29 {
+        position: relative;
+        clear: both;
+        z-index: 49;
+        width: 92.8168787244%;
+        margin-top: 32px;
+        margin-left: 3.67042%;
+    }
+
+    .container .text-3 {
+        position: relative;
+        z-index: 7;
+        width: 43.8395876952%;
+        margin-left: 52.86147%;
+    }
+
+    .container .text-30 {
+        position: relative;
+        z-index: 54;
+        width: 92.8168787244%;
+        margin-top: -39px;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-31 {
+        position: relative;
+        z-index: 50;
+        width: 92.8168787244%;
+        margin-top: -128px;
+        margin-left: 3.67042%;
+    }
+
+    .container .text-32 {
+        position: relative;
+        clear: none;
+        z-index: 55;
+        width: 92.8168787244%;
+        margin-top: -14px;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-33 {
+        position: relative;
+        clear: both;
+        z-index: 51;
+        width: 92.8168787244%;
+        margin-top: -270px;
+        margin-left: 26.73442%;
+    }
+
+    .container .text-34 {
+        position: relative;
+        clear: none;
+        z-index: 56;
+        width: 92.8168787244%;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-35 {
+        position: relative;
+        clear: both;
+        z-index: 52;
+        width: 92.8168787244%;
+        margin-top: -270px;
+        margin-left: 26.73442%;
+    }
+
+    .container .text-36 {
+        position: relative;
+        z-index: 60;
+        width: 43.8395876952%;
+        margin-left: 52.8557%;
+    }
+
+    .container .text-37 {
+        position: relative;
+        z-index: 59;
+        width: 43.9442744403%;
+        margin-left: 3.67882%;
+    }
+
+    .container .text-38 {
+        position: relative;
+        z-index: 65;
+        width: 92.8168787244%;
+        margin-top: -18px;
+        margin-left: 189.61028%;
+    }
+
+    .container .text-39 {
+        position: relative;
+        clear: both;
+        z-index: 61;
+        width: 92.8168787244%;
+        margin-top: 32px;
+        margin-left: 3.67042%;
+    }
+
+    .container .text-40 {
+        position: relative;
+        z-index: 66;
+        width: 92.8168787244%;
+        margin-top: -39px;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-41 {
+        position: relative;
+        z-index: 62;
+        width: 92.8168787244%;
+        margin-top: -128px;
+        margin-left: 3.67042%;
+    }
+
+    .container .text-42 {
+        position: relative;
+        clear: none;
+        z-index: 67;
+        width: 92.8168787244%;
+        margin-top: -14px;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-43 {
+        position: relative;
+        clear: both;
+        z-index: 63;
+        width: 92.8168787244%;
+        margin-top: -270px;
+        margin-left: 26.73442%;
+    }
+
+    .container .text-44 {
+        position: relative;
+        clear: none;
+        z-index: 68;
+        width: 92.8168787244%;
+        margin-left: 4.61952%;
+    }
+
+    .container .text-45 {
+        position: relative;
+        clear: both;
+        z-index: 64;
+        width: 92.8168787244%;
+        margin-top: -270px;
+        margin-left: 26.73442%;
+    }
+
+    .container .text-5 {
+        width: 92.8168787244%;
+        margin-top: 9px;
+        margin-left: 3.67448%;
+    }
+
+    .container .text-6 {
+        width: 92.8168787244%;
+        margin-left: 4.60705%;
+    }
+
+    .container .text-7 {
+        position: relative;
+        z-index: 15;
+        width: 43.8395876952%;
+        margin-left: 52.86147%;
+    }
+
+    .container .wrapper-1 {
+        z-index: 5;
+        margin-left: 3.67448%;
+    }
+
+    .container .wrapper-2 {
+        z-index: 13;
+        margin-left: 3.67448%;
+    }
+
+    .container .wrapper-3 {
+        z-index: 25;
+        margin-left: 3.67448%;
+    }
+
+    .container .wrapper-4 {
+        z-index: 31;
+        margin-left: 3.67042%;
+    }
+
+    .container .wrapper-5 {
+        z-index: 46;
+        margin-left: 3.67042%;
+    }
+
+    .container .wrapper-6 {
+        z-index: 58;
+        margin-left: 3.67042%;
+    }
+
+    .container-1 {
+        left: 35.9375%;
+        right: auto;
+    }
+
+    .container-2 {
+        position: relative;
+        z-index: 10;
+        margin-top: 14px;
+        margin-left: 10.58977%;
+    }
+
+    .container-3 {
+        position: relative;
+        clear: both;
+        z-index: 18;
+        margin-top: 670px;
+        margin-left: 0.61581%;
+    }
+
+    .container-4 {
+        position: relative;
+        z-index: 30;
+        margin-top: 670px;
+        margin-left: 0.96967%;
+    }
+
+    .container-5 {
+        position: relative;
+        z-index: 42;
+        margin-top: 1px;
+        margin-left: 12.6731%;
+    }
+
+    .container-6 {
+        position: relative;
+        z-index: 57;
+        margin-left: 1.46293%;
+    }
+
+    .container-7 {
+        position: relative;
+        clear: both;
+        z-index: 69;
+        margin-top: -1215px;
+        margin-left: 50.49939%;
+    }
+
+    .image-1 {
+        position: relative;
+        z-index: 44;
+    }
+
+    .image-2 {
+        position: relative;
+        z-index: 45;
+        margin-top: -25px;
+        margin-left: 84.29688%;
+    }
+
+    .image-4 {
+        position: relative;
+        clear: none;
+        z-index: 20;
+        margin-top: 697px;
+        margin-left: 12.14461%;
+    }
+
+    .image-5 {
+        position: relative;
+        clear: none;
+        z-index: 71;
+    }
+
+    .text-15 {
+        position: relative;
+        float: right;
+        clear: both;
+        z-index: 43;
+        margin-top: 132px;
+        margin-right: 63.23376%;
+    }
+
+    .text-2 {
+        position: relative;
+        float: right;
+        clear: none;
+        z-index: 12;
+        margin-top: -56px;
+        margin-right: 68.52022%;
+    }
+
+    ._button-1 {
+        position: relative;
+        clear: both;
+        z-index: 4;
+        margin-top: -168px;
+        margin-left: 5.37684%;
+    }
+
+    ._button-2 {
+        position: relative;
+        z-index: 3;
+        margin-top: -168px;
+        margin-left: 26.58701%;
+    }
+
+    ._button-3 {
+        position: relative;
+        z-index: 2;
+        margin-top: -168px;
+        margin-left: 37.68076%;
+    }
+
+    ._button-4 {
+        position: relative;
+        z-index: 1;
+        margin-top: -168px;
+        margin-left: 48.82506%;
+    }
+
+    ._button-6 {
+        position: relative;
+        z-index: 19;
+        margin-top: 679px;
+        margin-left: 0.97733%;
+    }
+
+    ._button-7 {
+        position: relative;
+        clear: both;
+        z-index: 70;
+        margin-top: -1215px;
+        margin-left: 88.71477%;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        font-size: 1em;
+    }
+
+    .container .image {
+        height: auto;
+        margin-top: -1073px;
+        margin-left: 108.91949%;
+    }
+
+    .container .wrapper {
+        position: relative;
+        width: 93.1625810706%;
+    }
+
+    .image {
+        height: auto;
+    }
+
+    ._element {
+        left: 0;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container ._button {
+        clear: none;
+        width: 19.1916666666%;
+        margin-top: 1017px;
+        margin-left: 31.29475%;
+    }
+
+    .container .text-1 {
+        width: 29.2958333333%;
+        margin-left: 10.08909%;
+    }
+
+    .container .text-11 {
+        position: relative;
+        z-index: 27;
+        width: 44.0035176431%;
+        margin-left: 52.8455299999%;
+    }
+
+    .container .text-12,
+    .container .text-4,
+    .container .text-8 {
+        width: 44.1024513575%;
+        margin-left: 3.68564%;
+    }
+
+    .container .text-10,
+    .container .text-13,
+    .container .text-14,
+    .container .text-5,
+    .container .text-9 {
+        width: 93.1625810706%;
+        margin-left: 3.6748%;
+    }
+
+    .container .text-16 {
+        position: relative;
+        z-index: 33;
+        width: 44.0035176431%;
+        margin-left: 52.83634%;
+    }
+
+    .container .text-17 {
+        position: relative;
+        z-index: 32;
+        width: 44.1024513575%;
+        margin-left: 3.68084%;
+    }
+
+    .container .text-18 {
+        position: relative;
+        z-index: 38;
+        width: 93.1625810706%;
+        margin-left: 262.95865%;
+    }
+
+    .container .text-19 {
+        position: relative;
+        z-index: 34;
+        width: 93.1625810706%;
+        margin-left: 3.63425%;
+    }
+
+    .container .text-20 {
+        position: relative;
+        z-index: 39;
+        width: 93.1625810706%;
+        margin-left: 6.38323%;
+    }
+
+    .container .text-21 {
+        position: relative;
+        z-index: 35;
+        width: 93.1625810706%;
+        margin-top: -147px;
+        margin-left: 3.63425%;
+    }
+
+    .container .text-22 {
+        position: relative;
+        z-index: 40;
+        width: 93.1625810706%;
+        margin-left: 6.38323%;
+    }
+
+    .container .text-23 {
+        position: relative;
+        z-index: 36;
+        width: 93.1625810706%;
+        margin-left: 37.0763%;
+    }
+
+    .container .text-24 {
+        position: relative;
+        z-index: 41;
+        width: 93.1625810706%;
+        margin-left: 6.39487%;
+    }
+
+    .container .text-25 {
+        position: relative;
+        z-index: 37;
+        width: 93.1625810706%;
+        margin-left: 37.0763%;
+    }
+
+    .container .text-26 {
+        position: relative;
+        z-index: 48;
+        width: 44.0035176431%;
+        margin-left: 52.83634%;
+    }
+
+    .container .text-27 {
+        position: relative;
+        z-index: 47;
+        width: 44.1024513575%;
+        margin-left: 3.68084%;
+    }
+
+    .container .text-28 {
+        position: relative;
+        z-index: 53;
+        width: 93.1625810706%;
+        margin-left: 262.95865%;
+    }
+
+    .container .text-29 {
+        position: relative;
+        z-index: 49;
+        width: 93.1625810706%;
+        margin-left: 3.63425%;
+    }
+
+    .container .text-3 {
+        position: relative;
+        z-index: 7;
+        width: 44.0035176431%;
+        margin-left: 52.8455299999%;
+    }
+
+    .container .text-30 {
+        position: relative;
+        z-index: 54;
+        width: 93.1625810706%;
+        margin-left: 6.38323%;
+    }
+
+    .container .text-31 {
+        position: relative;
+        z-index: 50;
+        width: 93.1625810706%;
+        margin-top: -147px;
+        margin-left: 3.63425%;
+    }
+
+    .container .text-32 {
+        position: relative;
+        z-index: 55;
+        width: 93.1625810706%;
+        margin-left: 6.38323%;
+    }
+
+    .container .text-33 {
+        position: relative;
+        z-index: 51;
+        width: 93.1625810706%;
+        margin-left: 37.0763%;
+    }
+
+    .container .text-34 {
+        position: relative;
+        z-index: 56;
+        width: 93.1625810706%;
+        margin-left: 6.39487%;
+    }
+
+    .container .text-35 {
+        position: relative;
+        z-index: 52;
+        width: 93.1625810706%;
+        margin-left: 37.0763%;
+    }
+
+    .container .text-36 {
+        position: relative;
+        z-index: 60;
+        width: 44.0035176431%;
+        margin-left: 52.83634%;
+    }
+
+    .container .text-37 {
+        position: relative;
+        z-index: 59;
+        width: 44.1024513575%;
+        margin-left: 3.68084%;
+    }
+
+    .container .text-38 {
+        position: relative;
+        z-index: 65;
+        width: 93.1625810706%;
+        margin-left: 262.95865%;
+    }
+
+    .container .text-39 {
+        position: relative;
+        z-index: 61;
+        width: 93.1625810706%;
+        margin-left: 3.63425%;
+    }
+
+    .container .text-40 {
+        position: relative;
+        z-index: 66;
+        width: 93.1625810706%;
+        margin-left: 6.38323%;
+    }
+
+    .container .text-41 {
+        position: relative;
+        z-index: 62;
+        width: 93.1625810706%;
+        margin-top: -147px;
+        margin-left: 3.63425%;
+    }
+
+    .container .text-42 {
+        position: relative;
+        z-index: 67;
+        width: 93.1625810706%;
+        margin-left: 6.38323%;
+    }
+
+    .container .text-43 {
+        position: relative;
+        z-index: 63;
+        width: 93.1625810706%;
+        margin-left: 37.0763%;
+    }
+
+    .container .text-44 {
+        position: relative;
+        z-index: 68;
+        width: 93.1625810706%;
+        margin-left: 6.39487%;
+    }
+
+    .container .text-45 {
+        position: relative;
+        z-index: 64;
+        width: 93.1625810706%;
+        margin-left: 37.0763%;
+    }
+
+    .container .text-6 {
+        width: 93.1625810706%;
+        margin-left: 6.2439%;
+    }
+
+    .container .text-7 {
+        position: relative;
+        z-index: 15;
+        width: 44.0035176431%;
+        margin-left: 52.8455299999%;
+    }
+
+    .container .wrapper-1 {
+        z-index: 5;
+        margin-left: 3.6748%;
+    }
+
+    .container .wrapper-2 {
+        z-index: 13;
+        margin-left: 3.6748%;
+    }
+
+    .container .wrapper-3 {
+        z-index: 25;
+        margin-left: 3.6748%;
+    }
+
+    .container .wrapper-4 {
+        z-index: 31;
+        margin-left: 3.63425%;
+    }
+
+    .container .wrapper-5 {
+        z-index: 46;
+        margin-left: 3.63425%;
+    }
+
+    .container .wrapper-6 {
+        z-index: 58;
+        margin-left: 3.63425%;
+    }
+
+    .container-2 {
+        position: relative;
+        z-index: 10;
+        margin-top: -60px;
+        margin-left: 10.19375%;
+    }
+
+    .container-3 {
+        position: relative;
+        z-index: 18;
+        margin-left: 1.01042%;
+    }
+
+    .container-4 {
+        position: relative;
+        z-index: 30;
+        margin-left: 0.975%;
+    }
+
+    .container-5 {
+        position: relative;
+        z-index: 42;
+        margin-left: 17.23542%;
+    }
+
+    .container-6 {
+        position: relative;
+        z-index: 57;
+        margin-left: 1.4625%;
+    }
+
+    .container-7 {
+        position: relative;
+        z-index: 69;
+        margin-top: -1141px;
+        margin-left: 50.5%;
+    }
+
+    .image-1 {
+        position: relative;
+        z-index: 44;
+        margin-left: 13.66875%;
+    }
+
+    .image-2 {
+        position: relative;
+        z-index: 45;
+        margin-left: 84.29167%;
+    }
+
+    .image-4 {
+        position: relative;
+        z-index: 20;
+        margin-left: 11.7375%;
+    }
+
+    .image-5 {
+        position: relative;
+        z-index: 71;
+    }
+
+    .text-15 {
+        position: relative;
+        z-index: 43;
+        margin-right: 50%;
+    }
+
+    .text-2 {
+        position: relative;
+        z-index: 12;
+        margin-right: 63.95625%;
+    }
+
+    ._button-1 {
+        position: relative;
+        z-index: 4;
+        margin-left: 4.16667%;
+    }
+
+    ._button-2 {
+        position: relative;
+        z-index: 3;
+        margin-left: 25.36875%;
+    }
+
+    ._button-3 {
+        position: relative;
+        z-index: 2;
+        margin-left: 36.46875%;
+    }
+
+    ._button-4 {
+        position: relative;
+        z-index: 1;
+        margin-left: 47.6%;
+    }
+
+    ._button-6 {
+        position: relative;
+        z-index: 19;
+        margin-left: 0.98125%;
+    }
+
+    ._button-7 {
+        position: relative;
+        z-index: 70;
+        margin-top: -1141px;
+        margin-left: 120.65%;
+    }
+}
