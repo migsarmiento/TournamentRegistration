@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-import '../styles/fonts.css';
-import '../styles/standardize.css';
-import '../styles/persons_list-grid.css';
-import '../styles/persons_list.css';
 
 export default class FencersList extends Component {
 
