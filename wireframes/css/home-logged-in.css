@@ -1,4 +1,5 @@
 body {
+    position: relative;
   min-width: none;
   min-height: nonepx;
   background-color: rgb(255, 255, 255);
