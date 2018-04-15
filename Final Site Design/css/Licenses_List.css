@@ -1,11 +1,18 @@
+.listLicenses {
+    padding: 60px 30px;
+}
+
 
 .licenseCard {
     display: inline-grid;
-    width: 100%;
+    width: 70%;
     height: inherit;
     position: relative;
-    margin-top: 60px;
+    margin: 30px 160px;
     padding: 25px;
+    background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 5px 0 #CDCDCD;
+
     
     grid-template-columns: 1fr 1fr;
     
@@ -14,12 +21,29 @@
     
 }
 
+#card-current{
+    background-image: url(../Content/Background_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card-past-1{
+    background-image: url(../Content/Background_1.png);
+    background-size: cover;
+}
+
+#card-past-2{
+    background-image: url(../Content/Background_3.png);
+    background-size: cover;
+}
+
 .licenseCard > h1,h2 {
     text-decoration: none;
 }
 
 .licenseCard#fullName {
     grid-column: 1/2;
+    margin-left: 50px;
 }
 
 .licenseCard > #date {

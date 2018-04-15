@@ -1,4 +1,4 @@
-#registerOverlay {
+#registerOverlay, #registeredCard1, #registeredCard2 {
     position: absolute;
     display: none;
     width: 100%;
@@ -22,7 +22,7 @@
     -ms-transform: translate(-50%,-50%);
 }
 
-#unregisterOverlay1, #unregisterOverlay2{
+#unregisterOverlay1, #unregisterOverlay2, #unregisteredCard1, #unregisteredCard2, #unregisteredCard3 {
     position: absolute;
     display: none;
     width: 100%;
@@ -36,7 +36,7 @@
     cursor: pointer;
 }
 
-#unregisterText1, #unregisterText2 {
+#unregisterText, #unregisterText1, #unregisterText2 {
     position: absolute;
     top: 50%;
     left: 50%;

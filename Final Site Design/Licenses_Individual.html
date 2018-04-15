@@ -6,6 +6,8 @@
 <!--  <link rel="stylesheet" href="css/standardize.css">-->
   <link rel="stylesheet" href="css/MASTER%20STYLE%20FILE.css">
 <link rel="stylesheet" href="css/Licenses_Individual.css">
+<link rel="stylesheet" href="css/Overlay.css">
+<script src="js/Overlay.js"></script>
 </head>
     
 <body>
@@ -29,7 +31,7 @@
         <div id="callToAction"><a href="Sign%20In.html"><h2>CTA LINK</h2></a></div>
     </div>
 
-    <a href="Competitions_List.html"><h3 class="breadcrumb">Competitions > </h3></a><h3 class="breadcrumb">Competition Title</h3>
+    <a href="Competitions_List.html"><h3 class="breadcrumb">Licenses > </h3></a><h3 class="breadcrumb">Purchase 2018 License</h3>
     
     
     
@@ -39,43 +41,36 @@
             <img src="Content/Athletes/Bautista.JPG">
             </div>
 -->
-            <h2 class="subInfo">Deadline for registration</h2>
-            <div class="date" id="deadline"><h2 id="day">05</h2><h2 id="month">october</h2><h2 id="year">2001</h2></div>
-            <h2 class="subInfo">Date of competition</h2>
-            <div class="date" id="competitionDate"><h2 id="day">05</h2><h2 id="month">october</h2><h2 id="year">2001</h2></div>
+            <h2 class="subInfo">Deadline for Purchase</h2>
+            <div class="date" id="deadline"><h2 id="day">18</h2><h2 id="month">april</h2><h2 id="year">2018</h2></div>
+            <h2 class="subInfo">License Validity</h2>
+            <h2 class="info">February 2018-january 2019</h2>
             <h2 class="subInfo">title</h2>
-            <h3 class="info" id="fullName">April Open Rankings</h3>
+            <h3 class="info" id="fullName">2018 Season License</h3>
             <h2 class="subInfo">Age divison</h2>
             <h2 class="info" id="age">Open</h2>
-            <h2 class="subInfo">weapon/s</h2>
-            <div class="info" id="weapons"><h2 id="foil">Women's & Men's Foil</h2><h2 id="epee">Women's & Men's epee</h2><h2 id="sabre">Women's & Men's sabre</h2></div>
-            <h2 class="subInfo">host</h2>
+            <h2 class="subInfo">Payments Addressed to</h2>
             <h2 class="info" id="club">Philippine Fencing Association</h2>
-            <h2 class="subInfo">venue</h2>
-            <h2 class="info" id="club">Philsports fencing hall</h2>
-            <h2 class="subInfo">events schedule</h2>
-            <h2 class="info" id="club">bit.ly/eventschedule/</h2>
+            <h2 class="subInfo">payment procedures</h2>
+            <h2 class="info" id="club">bit.ly/pfa_payments/</h2>
         </div>
     
     
     <div id="competitionReg">
         <div id="submenu">
             <img src="Content/Icons/Blades/Foil.png" class="icon"><br/>
-            <a href="" class="submenuButton" id="selected"><h2>men's foil</h2></a>
-            <a href="" class="submenuButton"><h2>women's foil</h2></a>
+            <a href="" class="submenuButton" ><h2>men's team</h2></a>
+            <a href="" class="submenuButton" id="selected"><h2>women's team</h2></a>
             
-            <img src="Content/Icons/Blades/Epee.png" class="icon"><br/>
-            <a href="" class="submenuButton"><h2>Men's epee</h2></a>
-            <a href="" class="submenuButton"><h2>women's epee</h2></a>
             
-            <img src="Content/Icons/Blades/Sabre.png" class="icon"><br/>
-            <a href="" class="submenuButton"><h2>Men's sabre</h2></a>
-            <a href="" class="submenuButton"><h2>women's sabre</h2></a>
             </div>
         <div id="unregistered">
-            <h2>Unregistered (1)</h2>
-            <div class="athleteCard">
-                <img src="" id="athletePhoto">
+            <h2>Unregistered (2)</h2>
+            <div class="athleteCard" onmouseover="showRegisterOverlay('registeredCard1');" onmouseleave="hideRegisterOverlay('registeredCard1');">
+                <div id="registeredCard1" onclick="hideRegisterOverlay('registeredCard1');">
+					<div id="registerText">Register</div>
+				</div>
+				<div class="athletePhoto"><img src="Content/Athletes/Ignacio.jpg"></div>
                 <h2 id="licenseNumber">041102</h2>
                 <h3 id="fullName">Ignacio, Andrea Marie Y.</h3>
                 <h2 class="subInfo">Age</h2>
@@ -85,14 +80,33 @@
                 <h2 class="subInfo">weapon/s</h2>
                 <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2><h2 id="sabre">sabre</h2></div>     
                 
-                <div class="overlay"><h2>Register</h2></div>
+                </div>
+            
+            <div class="athleteCard" onmouseover="showRegisterOverlay('registeredCard2');" onmouseleave="hideRegisterOverlay('registeredCard2');">
+				<div id="registeredCard2" onclick="hideRegisterOverlay('registeredCard2');">
+					<div id="registerText">Register</div>
+				</div>
+                <div class="athletePhoto"><img src="Content/Athletes/Paulo.jpg"></div>
+                <h2 id="licenseNumber">041103</h2>
+                <h3 id="fullName">Paulo, Patricia Beatriz P.</h3>
+                <h2 class="subInfo">Age</h2>
+                <h2 id="age">21</h2>
+                <h2 class="subInfo">birthdate</h2>
+                <div id="birthdate"><h2 id="day">28</h2><h2 id="month">october</h2><h2 id="year">1996</h2></div>
+                <h2 class="subInfo">weapon/s</h2>
+                <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2><h2 id="sabre">sabre</h2></div>     
+                
+               
                 </div>
             
         </div>
         <div id="registered">
-            <h2>Registered (2)</h2>
-            <div class="athleteCard" id="card-1">
-                <img src="" id="athletePhoto">
+            <h2>Registered (3)</h2>
+            <div class="athleteCard" id="card-1" onmouseover="showUnregisterOverlay('unregisteredCard1');" onmouseleave="hideUnregisterOverlay('unregisteredCard1');">
+				<div id="unregisteredCard1" onclick="hideUnregisterOverlay('unregisteredCard1');">
+					<div id="unregisterText">Unregister</div>
+				</div>
+                <div class="athletePhoto"><img src="Content/Athletes/Sarmiento.jpg"></div>
                 <h2 id="licenseNumber">011104</h2>
                 <h3 id="fullName">Sarmiento, Patricia Marie</h3>
                 <h2 class="subInfo">Age</h2>
@@ -102,10 +116,12 @@
                 <h2 class="subInfo">weapon/s</h2>
                 <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2></div>     
                 
-                <div class="overlay"><h2>Register</h2></div>
                 </div>
-            <div class="athleteCard" id="card-2">
-                <img src="" id="athletePhoto">
+            <div class="athleteCard" id="card-2" onmouseover="showUnregisterOverlay('unregisteredCard2');" onmouseleave="hideUnregisterOverlay('unregisteredCard2');">
+				<div id="unregisteredCard2" onclick="hideUnregisterOverlay('unregisteredCard2');">
+					<div id="unregisterText">Unregister</div>
+				</div>
+                <div class="athletePhoto"><img src="Content/Athletes/Pangilinan.jpg"></div>
                 <h2 id="licenseNumber">011103</h2>
                 <h3 id="fullName">Pangilinan, Monica T.</h3>
                 <h2 class="subInfo">Age</h2>
@@ -115,13 +131,28 @@
                 <h2 class="subInfo">weapon/s</h2>
                 <div id="previewWeapons"><h2 id="epee">epee</h2></div>     
                 
-                <div class="overlay"><h2>unregister</h2></div>
+                </div>
+            
+            <div class="athleteCard" id="card-2" onmouseover="showUnregisterOverlay('unregisteredCard3');" onmouseleave="hideUnregisterOverlay('unregisteredCard3');">
+				<div id="unregisteredCard3" onclick="hideUnregisterOverlay('unregisteredCard3');">
+					<div id="unregisterText">Unregister</div>
+				</div>
+                <div class="athletePhoto"><img src="Content/Athletes/DSC_0579.jpg"></div>
+                <h2 id="licenseNumber">051102</h2>
+                <h3 id="fullName">Joseph, Justine Elisa Laura D.</h3>
+                <h2 class="subInfo">Age</h2>
+                <h2 id="age">22</h2>
+                <h2 class="subInfo">birthdate</h2>
+                <div id="birthdate"><h2 id="day">27</h2><h2 id="month">April</h2><h2 id="year">1995</h2></div>
+                <h2 class="subInfo">weapon/s</h2>
+                <div id="previewWeapons"><h2 id="epee">Sabre</h2></div>     
+                
                 </div>
             
         </div>
         
         </div>
-     <div id="footer"></div>
+
     
     </body>
 </html>

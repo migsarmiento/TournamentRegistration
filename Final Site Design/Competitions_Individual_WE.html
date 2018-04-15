@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/MASTER%20STYLE%20FILE.css">
 <link rel="stylesheet" href="css/Competitions_Individual.css">
 <link rel="stylesheet" href="css/Overlay.css">
-<script src="js/RegisterOverlay.js"></script>
+<script src="js/Overlay.js"></script>
 </head>
     
 <body>
@@ -76,8 +76,8 @@
             </div>
         <div id="unregistered">
             <h2>Unregistered (1)</h2>
-            <div class="athleteCard" onmouseover="showRegisterOverlay();" onmouseleave="hideRegisterOverlay();">
-			<div id="registerOverlay" onclick="hideRegisterOverlay();">
+            <div class="athleteCard" onmouseover="showRegisterOverlay('registerOverlay');" onmouseleave="hideRegisterOverlay('registerOverlay');">
+				<div id="registerOverlay" onclick="hideRegisterOverlay('registerOverlay');">
 					<div id="registerText">Register</div>
 				</div>
                 <img src="" id="athletePhoto">
