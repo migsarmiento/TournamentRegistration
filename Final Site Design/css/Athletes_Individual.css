@@ -1,0 +1,155 @@
+#athleteCard {
+    position: relative;
+    display: inline-grid;
+    padding: 10px 0;
+    margin-top: 50px;
+	height: 608px;
+	width: 100%;
+    
+	border-radius: 5px;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 7px 0 rgba(205,205,205,0.5);
+    
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-column-gap: 1.5em;
+    grid-row-gap: none;
+}
+
+#athletePhoto {
+	width: auto;
+    background-color: antiquewhite;
+    grid-row: 1/9;    
+    overflow: hidden;
+}
+
+#athletePhoto > img{
+    position: absolute;
+    height: 608px;
+    width: auto;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+ .subInfo {
+    color: rgb(205,205,205);
+    line-height: inherit;
+    grid-column: 2;    
+}
+
+.info {
+    grid-column: 3;
+    height: 40px;
+	color: #000000;
+	font-weight: 300;
+	letter-spacing: 2.8px;
+	line-height: 16px;
+}
+
+.info > h2 {
+     height: 40px;
+	color: #000000;
+	font-weight: 300;
+	letter-spacing: 2.8px;
+	line-height: 16px;
+}
+
+#birthdate > h2 {
+    display: inline;
+    width: 30%;
+    margin: 0 5px;
+}
+
+#athleteCard > #weapons {
+    height: auto;
+    margin: 10px 0;
+}
+
+#previewWeapons > h2 #info{
+    display: inline;
+    width: 30%;
+    margin: 0 5px;
+}
+
+/*
+
+#sabre {
+    display: none;
+}
+*/
+
+h2#licenseNumber {
+    font-weight: 500;
+    margin: 10px 0;
+    color: rgba(248,170,0,0.75);
+}
+
+#fullName {
+	height: auto;
+	width: 520px;
+	color: #000000;
+    font-weight: 400;
+    font-size: 35px;
+	letter-spacing: 1.4px;
+	line-height: inherit;
+}
+
+
+
+/*athlete's information*/
+
+#athleteInfo {
+    height: 1000px;
+    width: 100%;
+    grid-template: 1fr 5fr;
+    grid-column-gap: 1em;
+}
+
+#submenu {
+    display: block;
+    padding-top: ;
+    height: 100%;
+    width: 210px;
+	background-color: rgba(189,189,189,0.1);
+    grid-column: 1;
+}
+
+#submenu > a {
+    display: inline;
+    height: 200px;
+    width: inherit;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.icon {
+    vertical-align: middle;
+    height: 25px;
+    margin: 10px;
+}
+
+#submenu > a h2 {
+    color: #004E8B;
+}
+
+
+#athleteInfo > #pageFrame {
+    grid-column: 2;
+    background-color: forestgreen;
+}
+
+
+.submenuButton > div{
+    height: 60px;
+    padding: 15px 20px 0px 15px;
+}
+
+.submenuButton > #selected {
+background-color: #FFFFFF;	
+        box-shadow: inset 0 1px 6px 0 rgba(205,205,205,0.5);
+}
+
+
+#submenu > a div h2 {
+    margin: 15px 0px;
+    float: right;
+}
