@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-<title>April Open Rankings</title>
+  <title>April Open Rankings</title>
 <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Roboto:300,400,500,700" rel="stylesheet">
 <!--  <link rel="stylesheet" href="css/standardize.css">-->
-<link rel="stylesheet" href="css/MASTER%20STYLE%20FILE.css">
+  <link rel="stylesheet" href="css/MASTER%20STYLE%20FILE.css">
 <link rel="stylesheet" href="css/Competitions_Individual.css">
 <link rel="stylesheet" href="css/Overlay.css">
 <script src="js/Overlay.js"></script>
@@ -17,7 +17,7 @@
 					<ul>
                         <li id="home"><a href="Home%20Page.html"><img src="Content/Icons/Home.png" alt="Account"></a></li>
                         <li><h2><a href="Athletes_List.html">PERSONS</a></h2></li>
-                        <li><h2><a href="#">LICENSES</a></h2></li>
+                        <li><h2><a href="Licenses_List.html">LICENSES</a></h2></li>
                         <li><h2><a href="Competitions_List.html">COMPETITIONS</a></h2></li>
                         <li><h2><a href="Results_List.html">RESULTS</a></h2></li>
 						
@@ -80,7 +80,7 @@
 				<div id="registerOverlay" onclick="hideRegisterOverlay('registerOverlay');">
 					<div id="registerText">Register</div>
 				</div>
-                <img src="" id="athletePhoto">
+                <div class="athletePhoto"><img src="Content/Athletes/Ignacio.jpg"></div>
                 <h2 id="licenseNumber">041102</h2>
                 <h3 id="fullName">Ignacio, Andrea Marie Y.</h3>
                 <h2 class="subInfo">Age</h2>
@@ -88,17 +88,16 @@
                 <h2 class="subInfo">birthdate</h2>
                 <div id="birthdate"><h2 id="day">07</h2><h2 id="month">august</h2><h2 id="year">1994</h2></div>
                 <h2 class="subInfo">weapon/s</h2>
-                <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2><h2 id="sabre">sabre</h2></div>     
-            </div>
-            
+                <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2><h2 id="sabre">sabre</h2></div> 
+			</div>
         </div>
         <div id="registered">
             <h2>Registered (2)</h2>
             <div class="athleteCard" id="card-1" onmouseover="showUnregisterOverlay('unregisterOverlay1');" onmouseleave="hideUnregisterOverlay('unregisterOverlay1');">
-                <div id="unregisterOverlay1" onclick="hideUnregisterOverlay('unregisterOverlay1');">
+				<div id="unregisterOverlay1" onclick="hideUnregisterOverlay('unregisterOverlay1');">
 					<div id="unregisterText1">Unregister</div>
 				</div>
-				<img src="" id="athletePhoto">
+                <div class="athletePhoto"><img src="Content/Athletes/Sarmiento.jpg"></div>
                 <h2 id="licenseNumber">011104</h2>
                 <h3 id="fullName">Sarmiento, Patricia Marie</h3>
                 <h2 class="subInfo">Age</h2>
@@ -106,13 +105,14 @@
                 <h2 class="subInfo">birthdate</h2>
                 <div id="birthdate"><h2 id="day">09</h2><h2 id="month">September</h2><h2 id="year">1995</h2></div>
                 <h2 class="subInfo">weapon/s</h2>
-                <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2></div>
-			</div>
+                <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2></div>     
+                
+                </div>
             <div class="athleteCard" id="card-2" onmouseover="showUnregisterOverlay('unregisterOverlay2');" onmouseleave="hideUnregisterOverlay('unregisterOverlay2');">
-                <div id="unregisterOverlay2" onclick="hideUnregisterOverlay('unregisterOverlay2');">
+				<div id="unregisterOverlay2" onclick="hideUnregisterOverlay('unregisterOverlay2');">
 					<div id="unregisterText2">Unregister</div>
 				</div>
-				<img src="" id="athletePhoto">
+                <div class="athletePhoto"><img src="Content/Athletes/Pangilinan.jpg"></div>
                 <h2 id="licenseNumber">011103</h2>
                 <h3 id="fullName">Pangilinan, Monica T.</h3>
                 <h2 class="subInfo">Age</h2>
@@ -120,11 +120,15 @@
                 <h2 class="subInfo">birthdate</h2>
                 <div id="birthdate"><h2 id="day">22</h2><h2 id="month">august</h2><h2 id="year">1998</h2></div>
                 <h2 class="subInfo">weapon/s</h2>
-                <div id="previewWeapons"><h2 id="epee">epee</h2></div> 
-			</div>
+                <div id="previewWeapons"><h2 id="epee">epee</h2></div>     
+                
+                </div>
+            
         </div>
     </div>
     <div id="footer"></div>
-    
+    <div id="registerOverlay" onclick="alert('move to registration');">
+		<div id="registerText">Overlay Text</div>
+	</div>
     </body>
 </html>
