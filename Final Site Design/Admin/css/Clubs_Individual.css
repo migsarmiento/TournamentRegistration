@@ -1,0 +1,129 @@
+.crudButton {
+    display: inline-block;
+    height: 25px;
+    width: auto;
+    position: relative;
+    
+    padding: 5px 10px;
+    margin: 20px;
+    right: 4em;
+    top: 4em;
+    float: right;
+    
+    border: none;
+    border-radius: 3px;
+    overflow: hidden;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 6px 0 rgba(205,205,205,0.5);
+}
+
+ .crudButton > img {
+        height: 15px;
+        align-self: center;
+        margin-top: 5px;   
+    }
+
+    .crudButton > h2 {
+        width: auto;
+        float: left;
+        color: rgba(248,170,0,0.75);
+        font-size: 15px;
+        font-weight: 400;
+        margin: 8px;
+    }
+
+
+#clubCard {
+    position: relative;
+    display: inline-grid;
+    padding: 1em 5em;
+    margin-top: 5em;
+	height: 608px;
+	width: 100%;
+    
+	border-radius: 5px;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 7px 0 rgba(205,205,205,0.5);
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 1em;
+}
+
+
+ .subInfo {
+    color: rgb(205,205,205);
+    line-height: inherit;
+    grid-column: 1;    
+}
+
+.info {
+    grid-column: 2;
+    height: auto;
+	color: #000000;
+	font-weight: 300;
+	letter-spacing: 2.8px;
+	line-height: 16px;
+}
+
+.info > h2 {
+     height: 40px;
+	color: #000000;
+	font-weight: 300;
+	letter-spacing: 2.8px;
+	line-height: 16px;
+}
+
+.date {
+   padding: 10px 0;
+}
+
+.date > h2 {
+    display: inline;
+    width: 30%;
+    font-weight: 500;
+    margin: 5px;
+    color: rgba(248,170,0,0.75);
+}
+
+#fullName {
+	color: #000000;
+	font-size: 35px;
+	line-height: normal;
+}
+
+#creditsCard {
+    position: relative;
+    display: inline-grid;
+    padding: 1em 5em;
+    margin-top: 2em;
+	height: auto;
+	width: 100%;
+    
+	border-radius: 5px;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 7px 0 rgba(205,205,205,0.5);
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 1em;
+}
+
+#creditsCard > input {
+    grid-column: 2;
+    width: 20em;
+    
+    justify-content: center;
+}
+
+#creditsCard > #submit {
+    grid-column: 2;
+    
+    display: inline-block;
+    width: 20em;
+    position: relative;
+    
+    padding: 5px 10px;
+    margin: 1em 0;
+    
+    border: none;
+    border-radius: 3px;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 6px 0 rgba(205,205,205,0.5);
+}

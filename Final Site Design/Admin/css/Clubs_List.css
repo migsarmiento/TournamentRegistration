@@ -1,0 +1,86 @@
+.listPreview {
+    position: relative;
+    top: 100px;
+    padding: 30px;
+    width: 94%;
+    height: minmax(600px,1500px);
+    
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+        text-decoration: none;
+    
+}
+
+
+
+.listPreview > a .competitionCard {
+    position: relative;
+	height: 290px;
+	width: auto;
+    padding: 35px;
+	border-radius: 3px;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 5px 0 rgba(205,205,205,0.5);
+
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: -5px;
+}
+
+
+a > .competitionCard > #date {
+        grid-column: 1/span 2;
+}
+a > .competitionCard #date h2 {
+    display: inline;
+    width: 30%;
+    margin-right: 10px;
+    
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(248,170,0,0.75);
+}
+
+div > h2 {
+    font-weight: 300;
+    
+}
+
+div > h2.subinfo {
+	height: 19.2px;
+	width: 140px;
+	color: #CDCDCD;
+	font-weight: 400;
+    grid-column: 1;
+}
+.subInfo {
+	height: 19.2px;
+	width: 140px;
+	color: #CDCDCD;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+    
+    grid-column: 1;
+}
+
+#fullName {
+    font-size: 30px;
+    font-weight: 300;
+    grid-column: 1/span 2;
+}
+
+input {
+    padding-left: 10px;
+    text-decoration-color: white;
+    font-family: Roboto;   
+}
+
+::placeholder {
+    color: white;
+}

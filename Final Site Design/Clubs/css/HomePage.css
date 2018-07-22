@@ -1,0 +1,117 @@
+#home {
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    
+}
+
+
+#home > #clubName {
+    grid-column: 1/2;
+    
+    width: 100%;
+    margin: 50px;
+    
+}
+
+#upcomming>h2 {
+    color: rgba(0,0,0,0.4);
+}
+
+#home > #upcomming a {
+    height: inherit;
+    width: 100%;
+    background-color: rgba(248,170,0,0.15);
+}
+
+
+.competitionCard {
+    grid-column: 1;
+    grid-row: 3/auto;
+    
+    position: relative;
+	height: auto;
+	width: 80%;
+    padding: 35px;
+    margin: 1em 0;
+	border-radius: 3px;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 5px 0 rgba(205,205,205,0.5);
+
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 1em;
+    grid-row-gap: -5px;
+}
+
+
+
+
+#date {
+        grid-column: 1/2;
+}
+a > .competitionCard #date h2 {
+    display: inline;
+    width: 30%;
+    margin-right: 10px;
+    
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(248,170,0,0.75);
+}
+
+a > .competitionCard h3#fullName {
+    grid-column: 1/2;
+    font-size: 30px;
+}
+
+.subInfo {
+    grid-column: 1;
+    font-weight: 300;
+}
+
+
+
+
+#notif {
+    grid-column: 2;
+}
+
+#upcomming {
+    grid-column: 1;
+    margin-left: 5em;
+}
+
+#notif > h2{
+    color: crimson;
+}
+
+.notificationCard {
+    position: relative;
+	height: auto;
+	width: 80%;
+    padding: 35px;
+    margin: 1em 0;
+	border-radius: 3px;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 5px 0 rgba(205,205,205,0.5);
+
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 1em;
+    grid-row-gap: -5px;
+}
+
+#notif > a #date h2 {
+    font-size: 13px;
+    color: rgba(248,170,0,0.75);
+}
+
+#notif > a h3 {
+    font-size: 20px;
+}
+
+.notificationCard > .subInfo {
+    grid-column: 1 / span 2;
+}

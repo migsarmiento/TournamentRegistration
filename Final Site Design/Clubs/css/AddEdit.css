@@ -1,0 +1,111 @@
+
+#addedit {
+    
+    display: grid;
+    position: relative;
+    margin-top: 100px;
+	height: auto;
+	width: 100%;
+	border-radius: 5px;
+	background-color: rgba(189,189,189,0.1);
+	box-shadow: 0 2px 7px 0 rgba(205,205,205,0.5);
+    
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 10px;
+}
+
+#upload {
+    display: block;
+	height: auto;
+	width: 680px;
+	background-color: rgba(205,205,205,0.25);
+    
+    grid-column: 1;
+    grid-row: 1/10;
+}
+
+#addedit > #upload h2 {
+    position: relative;
+    align-self: center;
+    width: 80px;
+    color: rgba(255,255,255,0.85);
+}
+
+#AddEdit > h2 {
+    margin: 20px;
+    color: rgb(205,205,205);
+    line-height: inherit;
+}
+ 
+#AddEdit > input, select {
+    margin: 20px 20px 20px 10px;
+	height: 40px;
+	width: auto;
+	opacity: 0.6;
+	border-radius: 1px;
+	background-color: rgba(189,189,189,0.1);
+}
+
+
+
+h2#licenseNumber {
+    color: rgba(248,170,0,0.75);
+}
+
+
+
+#birthdateSelector > select {
+    width: 120px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+#weaponSelector {
+    display: inline-block;
+}
+
+button {
+    display: block;
+    text-align: right;
+	height: 60px;	
+    width: 120px;	
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;	
+    background-color: rgba(189,189,189,0.1);	
+    box-shadow: 0 1px 2px 0 #004E8B;
+}
+
+
+button > img {
+/*    position: relative;*/
+    vertical-align: center;
+    width: 30px;
+}
+
+button > h2 {
+    width: 50px;
+    height: inherit;
+    margin: none;
+	color: #CDCDCD;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+}
+
+button > #submit {
+	height: 75px;
+	width: 100%;
+	border-radius: 2px;
+	background-color: rgba(248,170,0,0.75);
+    border: none;
+	box-shadow: inset 0 1px 3px 0 #FFFFFF, 0 1px 2px 0 rgba(255,255,255,0.1);
+}
+
+button > a {
+    color: white;
+    text-decoration: none;
+}
+
