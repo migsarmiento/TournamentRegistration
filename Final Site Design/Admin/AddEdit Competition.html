@@ -29,23 +29,8 @@
     <h3 class="breadcrumb">Add/Edit</h3>
     
     <div id="AddEdit">
-        <div id="upload"><h2>Upload competition poster</h2></div>
-        <h2>surname</h2>
-        <input class="name">
-        <h2>First name</h2>
-        <input class="name">
-        <h2>Middle name</h2>
-        <input class="name">
-        
-        <h2>sex</h2>
-        <select>
-            <option value="">-</option>
-            <option><h2>MALE</h2></option>
-            <option><h2>FEMALE</h2></option>
-        </select>
-        
-        <h2>Birthdate</h2>
-        <div id="birthdateSelector">
+        <h2>Registration Deadline</h2>
+        <div id="dateSelector">
         <select id="day">
             <option value=""><h2>DAY</h2></option>
             <option><h2>1</h2></option>
@@ -133,24 +118,57 @@
             <option><h2>2018</h2></option>
             </select>
         </div>
-        
-        <h2>Weapon</h2>
-        <div id="weaponSelector">
-            <a href=""><img src="Content/Icons/Buttons/AddEdit/Foil.png" class="weaponButton" id="foil"></a>
-            <button id="foil"><h2>Foil</h2></button>
-            <button id="epee"><h2>Epee</h2></button>
-            <button id="sabre"><h2>Sabre</h2></button>
-        </div>
-        
-        <h2>Affiliated Coaches</h2>
-        <select>
-            <option value="">-</option>
-            <option>Vino Victorino</option>
-            <option>Ryan Janeo</option>
-            <option>Edward Daliva</option>
+        <h2>Competition Date</h2>
+        <div id="dateSelector">
+        <select id="day">
+            <option value=""><h2>DAY</h2></option>
+            <option><h2>1</h2></option>
+            <option><h2>2</h2></option>
+            <option><h2>3</h2></option>
+            <option><h2>4</h2></option>
+            <option><h2>5</h2></option>
+            <option><h2>6</h2></option>
+            <option><h2>7</h2></option>
+            <option><h2>8</h2></option>
+            <option><h2>9</h2></option>
+            <option><h2>10</h2></option>
+            <option><h2>11</h2></option>
+            <option><h2>12</h2></option>
+            <option><h2>13</h2></option>
+            <option><h2>14</h2></option>
+            <option><h2>15</h2></option>
+            <option><h2>16</h2></option>
+            <option><h2>17</h2></option>
+            <option><h2>18</h2></option>
+            <option><h2>19</h2></option>
+            <option><h2>20</h2></option>
+            <option><h2>21</h2></option>
+            <option><h2>22</h2></option>
+            <option><h2>23</h2></option>
+            <option><h2>24</h2></option>
+            <option><h2>25</h2></option>
+            <option><h2>26</h2></option>
+            <option><h2>27</h2></option>
+            <option><h2>28</h2></option>
+            <option><h2>29</h2></option>
+            <option><h2>30</h2></option>
+            <option><h2>31</h2></option>
             </select>
-        
-        <h2>Member since</h2>
+        <select id="month">
+            <option value=""><h2>MONTH</h2></option>
+            <option><h2>January</h2></option>
+            <option><h2>February</h2></option> 
+            <option><h2>March</h2></option> 
+            <option><h2>April</h2></option> 
+            <option><h2>May</h2></option> 
+            <option><h2>June</h2></option> 
+            <option><h2>July</h2></option> 
+            <option><h2>August</h2></option> 
+            <option><h2>September</h2></option> 
+            <option><h2>October</h2></option> 
+            <option><h2>November</h2></option> 
+            <option><h2>December</h2></option> 
+            </select>
         <select id="year">
             <option value=""><h2>YEAR</h2></option>
             <option><h2>1985</h2></option>
@@ -188,11 +206,56 @@
             <option><h2>2017</h2></option>
             <option><h2>2018</h2></option>
             </select>
+        </div>
+        <h2>Competition Title</h2>
+        <input class="name">
+        
+        <h2>sex</h2>
+        <select>
+            <option value="">-</option>
+            <option><h2>MALE</h2></option>
+            <option><h2>FEMALE</h2></option>
+        </select>
+        
+        <h2>Age Division</h2>
+        <select>
+            <option value="">-</option>
+            <option><h2>Open</h2></option>
+            <option><h2>U23</h2></option>
+            <option><h2>U16</h2></option>
+            <option><h2>U12</h2></option>
+        </select>
+        
+        <h2>Weapon</h2>
+        <div id="weaponSelector">
+            <a href=""><img src="Content/Icons/Buttons/AddEdit/Foil.png" class="weaponButton" id="foil"></a>
+            <button id="foil"><h2>Foil</h2></button>
+            <button id="epee"><h2>Epee</h2></button>
+            <button id="sabre"><h2>Sabre</h2></button>
+        </div>
+        
+        <h2>Host</h2>
+        <select>
+            <option value="">-</option>
+            <option>Philippine Fencing Association</option>
+            <option>University of the East</option>
+            <option>University of Santo Tomas</option>
+            <option>Ateneo de Manila University</option>
+            <option>De La Salle University</option>
+            <option>University of the Philippines</option>
+            <option>Republic Fencing</option>
+            </select>
+    </div>
+    
+    <div id="compet">
+    
     </div>
 
-    
     <button id="submit">
-        <a href="Sign%20In.html"><h2>submit athlete application for pfa approval</h2></a>  </button>
+        <h2>
+            <a href="#">submit athlete application for pfa approval</a>
+        </h2>  
+    </button>
 <div id="footer"></div>
     
 </body>

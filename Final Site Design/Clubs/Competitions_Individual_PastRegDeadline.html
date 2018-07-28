@@ -1,13 +1,11 @@
 <!doctype html>
 <html>
 <head>
-  <title>April Open Rankings</title>
+  <title>August Open Rankings</title>
 <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Roboto:300,400,500,700" rel="stylesheet">
 <!--  <link rel="stylesheet" href="css/standardize.css">-->
   <link rel="stylesheet" href="css/MASTER%20STYLE%20FILE.css">
 <link rel="stylesheet" href="css/Competitions_Individual.css">
-<link rel="stylesheet" href="css/Overlay.css">
-<script src="js/Overlay.js"></script>
 </head>
     
 <body>
@@ -20,7 +18,7 @@
                 <li><h2><a href="Licenses_List.html">LICENSES</a></h2></li>
                 <li><h2><a href="Competitions_List.html">COMPETITIONS</a></h2></li>
                 <li><h2><a href="Results_List.html">RESULTS</a></h2></li>
-                <li id="account"><h2><a href="#"><img src="Content/Icons/Account.png" alt="Account">CLUB NAME</a></h2></li>
+                <li id="account"><h2><a href="Account_Page.html"><img src="Content/Icons/Account.png" alt="Account">CLUB NAME</a></h2></li>
             </ul>
         </nav>
     </main>
@@ -28,15 +26,13 @@
 
     <a href="Competitions_List.html"><h3 class="breadcrumb">Competitions > </h3></a><h3 class="breadcrumb">Competition Title</h3>
     
-    
-    
         <div id="competitionCard">
             <h2 class="subInfo">Deadline for registration</h2>
-            <div class="date" id="deadline"><h2 id="day">05</h2><h2 id="month">october</h2><h2 id="year">2001</h2></div>
+            <div class="date" id="deadline"><h2 id="day">19</h2><h2 id="month">August</h2><h2 id="year">2018</h2></div>
             <h2 class="subInfo">Date of competition</h2>
-            <div class="date" id="competitionDate"><h2 id="day">05</h2><h2 id="month">october</h2><h2 id="year">2001</h2></div>
+            <div class="date" id="competitionDate"><h2 id="day">22</h2><h2 id="month">August</h2><h2 id="year">2018</h2></div>
             <h2 class="subInfo">title</h2>
-            <h3 class="info" id="fullName">April Open Rankings</h3>
+            <h3 class="info" id="fullName">August Open Rankings</h3>
             <h2 class="subInfo">Age divison</h2>
             <h2 class="info" id="age">Open</h2>
             <h2 class="subInfo">weapon/s</h2>
@@ -49,9 +45,9 @@
             <h2 class="info" id="club">bit.ly/eventschedule/</h2>
         </div>
     
-    
     <div id="competitionReg">
-        <div id="pastDeadlineOverlay">
+        <div id="pastOverlay">
+            <h2>Registration Deadline has passed, see you at the competition!</h2>
         </div>
         <div id="submenu">
             <img src="Content/Icons/Blades/Foil.png" class="icon"><br/>
@@ -65,48 +61,14 @@
             <img src="Content/Icons/Blades/Sabre.png" class="icon"><br/>
             <a href="" class="submenuButton"><h2>Men's sabre</h2></a>
             <a href="" class="submenuButton"><h2>women's sabre</h2></a>
-            </div>
+        </div>
         <div id="unregistered">
             <h2>Unregistered (1)</h2>
-            <div class="athleteCard" onmouseover="showRegisterOverlay('registerOverlay');" onmouseleave="hideRegisterOverlay('registerOverlay');">
-				<div id="registerOverlay" onclick="hideRegisterOverlay('registerOverlay');">
-					<div id="registerText">Register</div>
-				</div>
-                <div class="athletePhoto"><img src="Content/Athletes/Ignacio.jpg"></div>
-                <h2 id="licenseNumber">041102</h2>
-                <h3 id="fullName">Ignacio, Andrea Marie Y.</h3>
-                <h2 class="subInfo">Age</h2>
-                <h2 id="age">23</h2>
-                <h2 class="subInfo">birthdate</h2>
-                <div id="birthdate"><h2 id="day">07</h2><h2 id="month">august</h2><h2 id="year">1994</h2></div>
-                <h2 class="subInfo">weapon/s</h2>
-                <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2><h2 id="sabre">sabre</h2></div> 
-			</div>
         </div>
         <div id="registered">
             <h2>Registered (2)</h2>
-            <div class="athleteCard" id="card-1" onmouseover="showUnregisterOverlay('unregisterOverlay1');" onmouseleave="hideUnregisterOverlay('unregisterOverlay1');">
-				<div id="unregisterOverlay1" onclick="hideUnregisterOverlay('unregisterOverlay1');">
-					<div id="unregisterText1">Unregister</div>
-				</div>
-                <div class="athletePhoto"><img src="Content/Athletes/Sarmiento.jpg"></div>
-                <h2 id="licenseNumber">011104</h2>
-                <h3 id="fullName">Sarmiento, Patricia Marie</h3>
-                <h2 class="subInfo">Age</h2>
-                <h2 id="age">21</h2>
-                <h2 class="subInfo">birthdate</h2>
-                <div id="birthdate"><h2 id="day">09</h2><h2 id="month">September</h2><h2 id="year">1995</h2></div>
-                <h2 class="subInfo">weapon/s</h2>
-                <div id="previewWeapons"><h2 id="foil">Foil</h2><h2 id="epee">epee</h2></div>     
-                
-                </div>
-            
-            
         </div>
     </div>
     <div id="footer"></div>
-    <div id="registerOverlay" onclick="alert('move to registration');">
-		<div id="registerText">Overlay Text</div>
-	</div>
     </body>
 </html>
